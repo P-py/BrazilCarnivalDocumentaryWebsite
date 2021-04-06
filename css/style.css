@@ -246,3 +246,7 @@ header h2:hover {
         transform: rotateZ(360deg);
     }
 }
+
+.section-5 {
+    min-height: 387px;
+}
