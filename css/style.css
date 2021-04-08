@@ -225,8 +225,9 @@ header h2:hover {
 .lado-direito a img {
     width: 50px;
     height: 50px;
-    float: right;
+    /* float: right; */
     margin-top: 150px;
+    margin-left: 325px;
 }
 
 .lado-direito a img:hover {
@@ -258,4 +259,10 @@ header h2:hover {
         align-items: flex-start;
         justify-content: space-between;
     }
+    .lado-direito a img {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 150px;
+}
 }
