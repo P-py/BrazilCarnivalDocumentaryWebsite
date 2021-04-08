@@ -6,6 +6,11 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+hr {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, rgb(139, 139, 139), transparent);
+}
 header {
     background-color: #282830;
     padding: 10px 20px;
@@ -291,7 +296,39 @@ header h2 {
     }
 }
 footer {
-    background-image: url(background_footer.png);
+    background-color: #282830;
+}
+
+footer .footer-container {
+    background-color: #282830;
+    padding: 30px;
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .footer-container h2 {
+    color: #ccc;
+    font-size: 40px;
+}
+footer .footer-container p {
+    color: #ccc;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+footer .footer-container p a {
+    color: #aaa;
+    font-size: 20px;
+}
+footer .footer-container hr {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+footer .DevelopedBy{
+
 }
 @media only screen and (max-width: 1550px){
     .menu {
