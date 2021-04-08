@@ -157,7 +157,8 @@ header h2 {
     width: 100%;
     background-color: whitesmoke;
     padding: 30px;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     align-items: center;
     text-align: center;
 }
