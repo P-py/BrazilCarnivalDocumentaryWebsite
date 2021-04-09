@@ -253,9 +253,6 @@ header h2 {
     min-height: 387px;
 }
 @media only screen and (min-width: 768px) {
-    header {
-        width: 100%;
-    }
     .linha {
         display: flex;
         flex-wrap: wrap;
@@ -348,6 +345,28 @@ footer .DevelopedBy li p{
     padding: 30px;
     display: flex;
     justify-content: center;
+}
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+    transition: .3s;
+}
+.redes-sociais ul li {
+    padding: 15px;
+    text-align: center;
+}
+.redes-sociais li a img:hover {
+    transform: scale(1.4) translateY(-5px);
+}
+
+.copyright {
+    color: #ccc;
+    font-weight: 650;
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright a{
+    color: #aaa;
 }
 @media only screen and (max-width: 1550px){
     .menu {
