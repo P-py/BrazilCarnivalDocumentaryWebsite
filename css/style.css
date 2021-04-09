@@ -328,7 +328,26 @@ footer .footer-container hr {
 }
 
 footer .DevelopedBy{
-
+    background-color: #282830;
+    padding: 30px;
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .DevelopedBy h3{
+    color: #ccc;
+}
+footer .DevelopedBy li {
+    display: inline-block;
+}
+footer .DevelopedBy li p{
+    color: #ccc;
+}
+.redes-sociais {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (max-width: 1550px){
     .menu {
