@@ -167,9 +167,21 @@ header h2 {
     align-items: center;
     text-align: center;
 }
+.conteudo p {
+    text-align: left;
+    font-size: 18px;
+}
 
 .conteudo img {
     width: 100%;
+    margin-top: 25px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.conteudo .assinatura {
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .conteudo h2 {
