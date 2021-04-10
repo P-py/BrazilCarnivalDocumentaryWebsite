@@ -191,6 +191,7 @@ header h2:hover {
     text-align: justify;
     font-size: 25px;
     padding: 10px;
+    color: #fff;
 }
 .conteudo-cima .linha {
     flex-wrap: wrap;
