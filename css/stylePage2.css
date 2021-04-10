@@ -6,8 +6,12 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+hr {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, rgb(139, 139, 139), transparent);
+}
 header {
-    width: 100%;
     background-color: #282830;
     padding: 10px 20px;
     top: 0;
@@ -161,7 +165,8 @@ header h2:hover {
     width: 100%;
     background-color: whitesmoke;
     padding: 30px;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     align-items: center;
     text-align: center;
 }
@@ -172,7 +177,7 @@ header h2:hover {
 }
 
 .conteudo h2 {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .conteudo hr {
@@ -186,19 +191,19 @@ header h2:hover {
 }
 
 .conteudo p {
-    text-align: left;
+    text-align: justify;
     font-size: 25px;
     padding: 10px;
 }
-.seta a img {
+.lado-direito a img {
     width: 50px;
     height: 50px;
-    float: right; 
-    margin-bottom: 100px;
+    /* float: right; */
+    margin-top: 150px;
     margin-left: 325px;
 }
 
-.seta a img:hover {
+.lado-direito a img:hover {
     animation-name: setaAnimation;
     animation-duration: 1.5s;
 }
@@ -216,7 +221,87 @@ header h2:hover {
 .section-5 {
     min-height: 387px;
 }
+footer {
+    background-color: #282830;
+}
 
+footer .footer-container {
+    background-color: #282830;
+    padding: 30px;
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .footer-container h2 {
+    color: #ccc;
+    font-size: 40px;
+}
+footer .footer-container p {
+    color: #ccc;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+footer .footer-container p a {
+    color: #aaa;
+    font-size: 20px;
+}
+footer .footer-container hr {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+footer .DevelopedBy{
+    background-color: #282830;
+    padding: 30px;
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .DevelopedBy h3{
+    color: #ccc;
+}
+footer .DevelopedBy li {
+    display: inline-block;
+}
+footer .DevelopedBy li p{
+    color: #ccc;
+}
+.redes-sociais {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+    transition: .3s;
+}
+.redes-sociais ul li {
+    padding: 15px;
+    text-align: center;
+}
+.redes-sociais li a img:hover {
+    transform: scale(1.4) translateY(-5px);
+}
+
+.copyright {
+    color: #ccc;
+    font-weight: 650;
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright a{
+    color: #aaa;
+}
 @media only screen and (min-width: 768px) {
-    
+    .lado-direito a img {
+        width: 50px;
+        height: 50px;
+        margin-top: 150px;
+        margin-left: 95%;
+    }
 }
