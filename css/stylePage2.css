@@ -168,6 +168,7 @@ header h2:hover {
 
 .conteudo img {
     width: 100%;
+    max-height: 500px;
 }
 
 .conteudo h2 {
@@ -187,11 +188,14 @@ header h2:hover {
 .conteudo p {
     text-align: left;
     font-size: 25px;
+    padding: 10px;
 }
 .seta a img {
     width: 50px;
     height: 50px;
-    float: right;
+    float: right; 
+    margin-bottom: 100px;
+    margin-left: 325px;
 }
 
 .seta a img:hover {
