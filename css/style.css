@@ -170,6 +170,7 @@ header h2 {
 
 .conteudo img {
     width: 100%;
+    border-radius: 25px;
 }
 
 .conteudo h2 {
