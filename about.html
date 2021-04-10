@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Brasil</title>
+    <link rel="stylesheet" href="./css/contactStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+</head>
+<body background="./imgs/Carnaval-Balanço.jpg">
+    <header>
+        <nav class='navbar'>
+            <div class="logo">
+                <p>Cultura Brasil</p>
+            </div>
+            <div>
+                <h2>Cultura Brasil</h2>
+            </div>
+            <div id="hamburguer active" onclick="menuOnClick()">
+                <div id="menu-bar" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+            <ul class="menu active" id="menu">
+                <li><a href="./about.html">Sobre</a></li>
+                <li><a href="./index.html">Conteúdo</a></li>
+            </ul>
+            <script src='./js/script.js'></script>
+        </nav>
+        <script src='./js/script.js'></script>
+        <div class='cabeçalho-conteudo'>
+            <div class="container">
+                <h3>Saiba como nos contatar</h3>
+                <h4>Todas as informações que você precisa pra nos contatar.</h4>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo">
+            <div class="redes-sociais-conteudo">
+                <h2> As nossas redes sociais</h2>
+                <hr />
+                <nav class="redes-sociais">
+                    <ul>
+                        <li><a href="https://www.instagram.com/__pedrossantos/"><img src="./imgs/instagram.svg" alt="Instagram"><p>Instagram</p></a></li>
+                        <li><a href="https://twitter.com/curliy1"><img src="./imgs/twitter.svg" alt="Twitter"><p>Twitter</p></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="form-email">
+                <h2>Faça contato direto</h2>
+                <hr />
+                <form>
+
+                    <fieldset class="grupo">
+                        <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                        <div class="campo">
+                            <label for="nome"><strong>Nome</strong></label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+        
+                        <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                        <div class="campo">
+                            <label for="sobrenome"><strong>Sobrenome</strong></label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>
+                        </div>
+                    </fieldset> 
+        
+                    <!-- Campo de email com-->
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="email"><strong>Email</strong></label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </fieldset>
+                    <!-- Caixa de texto -->
+                    <div class="campo">
+                        <br>
+                        <label for="experiencia"><strong>Mensagem: </strong></label>
+                        <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                    </div>
+        
+                    <!-- Botão para enviar o formulário -->
+                    <button class="botao" type="submit" onsubmit="">Enviar</button>            
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <nav>
+                <h2>Cultura Brasil</h2>
+                <hr />
+                <p>Como nos contatar? <a href="./contact.html">Clique aqui.</a></p>
+                <p>Veja nosso conteúdo <a href="./index.html">aqui.</a></a></p>
+            </nav>
+        </div>
+        <div class="DevelopedBy">
+            <hr />
+            <h3>Desenvolvido por Pedro Salviano Santos (p-py)</h3>
+            <nav class="redes-sociais">
+                <ul>
+                    <li><a href="https://www.instagram.com/__pedrossantos/"><img src="./imgs/instagram.svg" alt="Instagram"><p>Instagram</p></a></li>
+                    <li><a href="https://github.com/P-py"><img src="./imgs/github.svg" alt="GitHub"><p>GitHub</p></a></li>
+                    <li><a href="https://twitter.com/curliy1"><img src="./imgs/twitter.svg" alt="Twitter"><p>Twitter</p></a></li>
+                    <li><a href="https://linktr.ee/p.py"><img src="./imgs/link-da-web.svg" alt="Linktree"><p>Linktree</p></a></li>
+                    <li><a href="https://p-py.github.io/"><img src="./imgs/browser.svg" alt="Meu site"><p>Website</p></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="copyright"> &copy; Copyright 2021 
+            <a href="./index.html"> Pedro Salviano Santos (p.py) </a>
+        </div>
+    </footer>
+    <script src='./js/script.js'></script>
+</body>
+</html>
