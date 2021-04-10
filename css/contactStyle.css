@@ -393,8 +393,9 @@ input, select, textarea, button {
     padding-right: 1em;
 }
 
-#experiencia textarea {
+.textarea-mensagem {
     width: 75%;
+    max-width: 75%;
 }
 /* Elemento de classe "botao" */
 .botao {
