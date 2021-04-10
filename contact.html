@@ -30,7 +30,7 @@
             </div>
             <ul class="menu active" id="menu">
                 <li><a href="./about.html">Sobre</a></li>
-                <li><a href="./contact.html">Contato</a></li>
+                <li><a href="./index.html">Conteúdo</a></li>
             </ul>
             <script src='./js/script.js'></script>
         </nav>
@@ -44,7 +44,53 @@
     </header>
     <main>
         <div class="conteudo">
-            
+            <div class="redes-sociais-conteudo">
+                <h2> As nossas redes sociais</h2>
+                <hr />
+                <nav class="redes-sociais">
+                    <ul>
+                        <li><a href="https://www.instagram.com/__pedrossantos/"><img src="./imgs/instagram.svg" alt="Instagram"><p>Instagram</p></a></li>
+                        <li><a href="https://twitter.com/curliy1"><img src="./imgs/twitter.svg" alt="Twitter"><p>Twitter</p></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="form-email">
+                <h2>Faça contato direto</h2>
+                <hr />
+                <form>
+
+                    <fieldset class="grupo">
+                        <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                        <div class="campo">
+                            <label for="nome"><strong>Nome</strong></label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+        
+                        <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                        <div class="campo">
+                            <label for="sobrenome"><strong>Sobrenome</strong></label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>
+                        </div>
+                    </fieldset> 
+        
+                    <!-- Campo de email com-->
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="email"><strong>Email</strong></label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </fieldset>
+                    <!-- Caixa de texto -->
+                    <div class="campo">
+                        <br>
+                        <label for="experiencia"><strong>Mensagem: </strong></label>
+                        <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                    </div>
+        
+                    <!-- Botão para enviar o formulário -->
+                    <button class="botao" type="submit" onsubmit="">Enviar</button>            
+                </form>
+            </div>
         </div>
     </main>
     <footer>
@@ -53,7 +99,6 @@
                 <h2>Cultura Brasil</h2>
                 <hr />
                 <p>Quem somos? <a href="#">Clique aqui e será redirecionado para a página de "Sobre".</a></p>
-                <p>Como nos contatar? <a href="#">Clique aqui.</a></p>
             </nav>
         </div>
         <div class="DevelopedBy">
