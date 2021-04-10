@@ -155,7 +155,7 @@ header h2:hover {
     font-size: 25px;
 }
 
-.conteudo {
+.conteudo-cima {
     max-width: 1250px;
     margin: 0 auto;
     width: 100%;
@@ -167,30 +167,52 @@ header h2:hover {
     text-align: center;
 }
 
-.conteudo img {
+.conteudo-cima img {
     width: 100%;
     max-height: 500px;
     border-radius: 25px;
 }
 
-.conteudo h2 {
+.conteudo-cima h2 {
     font-size: 60px;
 }
 
-.conteudo hr {
+.conteudo-cima hr {
     border: 0;
     height: 5px;
-    background-image: linear-gradient(to right, transparent, rgb(139, 139, 139), transparent);
+    background-image: linear-gradient(to right, transparent, rgb(206, 205, 205), transparent);
 }
-.conteudo .link {
+.conteudo-cima .link {
     font-size: 17px;
     color: slateblue;
 }
 
-.conteudo p {
+.conteudo-cima p {
     text-align: justify;
     font-size: 25px;
     padding: 10px;
+}
+.conteudo-cima .linha {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.conteudo-cima .lado-direito {
+    flex-basis: 49%;
+}
+
+.conteudo-cima .lado-esquerdo {
+    flex-basis: 49%;
+}
+.conteudo-cima .lado-direito img{
+    max-height: 320px;
+}
+
+.conteudo-cima .lado-esquerdo img {
+    max-height: 340px;
+}
+.conteudo-cima {
+    background-color: #767676;
 }
 .lado-direito a img {
     width: 50px;
@@ -295,6 +317,12 @@ footer .DevelopedBy li p{
     color: #aaa;
 }
 @media only screen and (min-width: 768px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
     .lado-direito a img {
         width: 50px;
         height: 50px;
