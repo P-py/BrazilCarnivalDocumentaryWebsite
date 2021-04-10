@@ -174,6 +174,7 @@ header h2:hover {
 .conteudo img {
     width: 100%;
     max-height: 500px;
+    border-radius: 25px;
 }
 
 .conteudo h2 {
