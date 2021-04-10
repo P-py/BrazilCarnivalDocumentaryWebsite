@@ -392,6 +392,10 @@ input, select, textarea, button {
 .campo select option {
     padding-right: 1em;
 }
+
+#experiencia {
+    width: 75%;
+}
 /* Elemento de classe "botao" */
 .botao {
     font-size: 1.2em;
