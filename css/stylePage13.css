@@ -216,6 +216,7 @@ header h2:hover {
 .conteudo {
     background-color: #767676;
 }
+
 .conteudo {
     max-width: 1250px;
     margin: 0 auto;
@@ -227,14 +228,14 @@ header h2:hover {
 }
 
 .conteudo img {
-    width: 100%;
+    width: 75%;
     max-height: 500px;
     border-radius: 25px;
 }
 
 .conteudo h2 {
     font-size: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .conteudo hr {
@@ -256,8 +257,12 @@ header h2:hover {
 }
 .conteudo p {
     text-align: justify;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
+}
+.conteudo #texto-conto {
+    font-style: italic;
+    font-size: 25px;
 }
 .conteudo .linha {
     flex-wrap: wrap;
