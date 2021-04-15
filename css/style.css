@@ -174,7 +174,7 @@ header h2 {
 }
 
 .conteudo h2 {
-    font-size: 65px;
+    font-size: 55px;
 }
 
 .conteudo hr {
@@ -198,7 +198,7 @@ header h2 {
 }
 
 .lado-esquerdo h2 {
-    font-size: 55px;
+    font-size: 40px;
 }
 
 .lado-esquerdo p {
@@ -208,7 +208,7 @@ header h2 {
 
 
 .lado-direito h2 {
-    font-size: 55px;
+    font-size: 40px;
 }
 
 .lado-direito p {
@@ -232,7 +232,7 @@ header h2 {
     height: 50px;
     /* float: right; */
     margin-top: 150px;
-    margin-left: 300px;
+    margin-left: 85%;
 }
 
 .lado-direito a img:hover {
