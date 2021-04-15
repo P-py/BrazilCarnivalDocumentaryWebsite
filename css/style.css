@@ -252,15 +252,15 @@ header h2 {
 }
 
 .section-5 {
-    min-height: 387px;
+    min-height: 347px;
 }
 
 .section-7 {
-    min-height: 555px;
+    min-height: 439px;
 }
 
 .section-8 {
-    min-height: 615px;
+    min-height: 575px;
 }
 @media only screen and (min-width: 768px) {
     .linha {
