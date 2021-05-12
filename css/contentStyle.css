@@ -227,6 +227,26 @@ header h2 {
     padding: 7px;
 }
 
+main .choose-edition a section{
+    color: #555;
+    border: 7px inset #555;
+    box-shadow: 7px 10px 5px 0 rgba(85, 85, 85, 0);
+}
+
+@keyframes boxShadowAnimation {
+    from {
+        box-shadow: 7px 10px 5px 0 rgba(85, 85, 85, 0);
+    }
+    to {
+        box-shadow: 7px 10px 5px 0 rgba(85, 85, 85, 1);
+    }
+}
+
+main .choose-edition a section:hover {
+    animation-name: boxShadowAnimation;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
 
 .lado-direito a img {
     width: 50px;
@@ -237,7 +257,6 @@ header h2 {
 }
 
 .lado-direito a img:hover {
-    
     animation-name: setaAnimation;
     animation-duration: 1.5s;
 }
