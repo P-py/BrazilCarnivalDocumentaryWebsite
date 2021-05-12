@@ -413,7 +413,7 @@ footer .DevelopedBy li p{
         background-color: #333;
         margin: 0;
         flex-direction: column;
-        padding: 100px 40px;
+        padding: 100px 40px 250px;
         max-width: 150px;
         width: 100%;
         transition: .5s ease;

@@ -237,9 +237,11 @@ main .choose-edition a section{
 @keyframes boxShadowAnimation {
     from {
         box-shadow: 7px 10px 5px 0 rgba(85, 85, 85, 0);
+        scale: 1.0;
     }
     to {
         box-shadow: 7px 10px 5px 0 rgba(85, 85, 85, 1);
+        scale: 1.03;
     }
 }
 
