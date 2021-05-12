@@ -185,7 +185,8 @@ header h2 {
 }
 
 .conteudo h2 {
-    font-size: 50px;
+    font-size: 30px;
+    max-width: 100%;
 }
 
 .conteudo hr {
