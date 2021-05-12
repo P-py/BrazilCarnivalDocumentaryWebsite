@@ -231,6 +231,7 @@ main .choose-edition a section{
     color: #555;
     border: 7px inset #555;
     box-shadow: 7px 10px 5px 0 rgba(85, 85, 85, 0);
+    transition: 1s;
 }
 
 @keyframes boxShadowAnimation {
@@ -243,9 +244,12 @@ main .choose-edition a section{
 }
 
 main .choose-edition a section:hover {
-    animation-name: boxShadowAnimation;
-    animation-duration: 1.5s;
-    animation-fill-mode: both;
+    /* animation-name: boxShadowAnimation; */
+    /* animation-duration: 1.5s; */
+    /* animation-fill-mode: both; */
+    /* animation: boxShadowAnimation 1.5s both; */
+    box-shadow: 7px 10px 5px 0 rgba(85, 85, 85, 1);
+    transform: scale(1.03);
 }
 
 .lado-direito a img {
