@@ -1,6 +1,8 @@
 # BrazilCarnivalDocumentaryWebsite
 > Um website que tem a intenção de parecer como uma revista web, documentando sobre o Carnaval brasileiro, feito para um trabalho escolar no [SENAC LAPA TITO](https://www.sp.senac.br/senac-lapa-tito)
 
+##### DESCONTINUADO - Esse repositório não receberá novas atualizações e não está rodando live.
+
 ## Live deploy
 [Clique aqui para ir para o website](https://p-py.github.io/BrazilCarnivalDocumentaryWebsite/)
 
